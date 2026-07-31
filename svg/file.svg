@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized document: rounded sheet with folded corner -->
+  <path d="M13 4 Q9 4 9 8 L9 32 Q9 36 13 36 L27 36 Q31 36 31 32 L31 14 L21 4 Z"
+        fill="#f1fa8c" />
+  <!-- Fold -->
+  <path d="M21 4 L21 10 Q21 14 25 14 L31 14 Z" fill="#f1fa8c" opacity="0.55" />
+  <!-- Bright center -->
+  <circle cx="20" cy="25" r="3" fill="#ffffff" />
+</svg>
