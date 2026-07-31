@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized magnifier: lens ring + rounded handle -->
+  <circle cx="17" cy="17" r="10" fill="none" stroke="#f1fa8c" stroke-width="6" />
+  <path d="M25 25 L34 34" fill="none" stroke="#f1fa8c" stroke-width="6"
+        stroke-linecap="round" />
+  <!-- Bright center (of the lens) -->
+  <circle cx="17" cy="17" r="3" fill="#ffffff" />
+</svg>

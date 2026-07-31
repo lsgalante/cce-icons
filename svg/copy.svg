@@ -1,0 +1,11 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized copy: back sheet peeking out behind front sheet -->
+  <g fill="#f1fa8c">
+    <!-- Back sheet -->
+    <rect x="6" y="4" width="22" height="26" rx="4" opacity="0.55" />
+    <!-- Front sheet -->
+    <rect x="12" y="10" width="22" height="26" rx="4" />
+  </g>
+  <!-- Bright center (of the front sheet) -->
+  <circle cx="23" cy="23" r="3" fill="#ffffff" />
+</svg>
