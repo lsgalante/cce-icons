@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized cloud: two puffs on a rounded base -->
+  <g fill="#f1fa8c">
+    <circle cx="14" cy="21" r="8" />
+    <circle cx="25" cy="18" r="10" />
+    <rect x="6" y="21" width="28" height="10" rx="5" />
+  </g>
+  <!-- Bright center -->
+  <circle cx="20" cy="23" r="3" fill="#ffffff" />
+</svg>

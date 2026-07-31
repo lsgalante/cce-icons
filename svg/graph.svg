@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized node graph: three nodes, two edges -->
+  <g stroke="#f1fa8c" stroke-width="4" stroke-linecap="round">
+    <path d="M12 12 L28 16" />
+    <path d="M28 16 L15 30" />
+  </g>
+  <g fill="#f1fa8c">
+    <circle cx="12" cy="12" r="6" />
+    <circle cx="28" cy="16" r="7" />
+    <circle cx="15" cy="30" r="6" />
+  </g>
+  <!-- Bright center (the hub node) -->
+  <circle cx="28" cy="16" r="3" fill="#ffffff" />
+</svg>
