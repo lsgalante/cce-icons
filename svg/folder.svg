@@ -1,6 +1,8 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Folder: back panel with smooth diagonal tab shoulder (0.55 back-layer
-       language, as in copy.svg) under a full-opacity front flap -->
-  <path fill="#f1fa8c" opacity="0.55" d="M4 30.5 L4 10.5 Q4 7 7.5 7 L15.5 7 Q17.6 7 18.9 8.7 L20.8 11.2 Q21.7 12.4 23.2 12.4 L32.5 12.4 Q36 12.4 36 15.9 L36 30.5 Q36 34 32.5 34 L7.5 34 Q4 34 4 30.5 Z"/>
-  <rect fill="#f1fa8c" x="4" y="17" width="32" height="17" rx="3.5"/>
+  <!-- Folder: back panel with diagonal tab shoulder (0.55 back-layer language,
+       as in copy.svg) under a full-opacity front flap. Corners are squircle
+       (continuous-curvature) cubics, r=4.5: the curve spans 1.5r from each
+       corner with control points at 0.5r, not circular rx arcs. -->
+  <path fill="#f1fa8c" opacity="0.55" d="M4 13.75 C4 9.25 6.25 7 10.75 7 L15.5 7 Q17.6 7 18.9 8.7 L20.8 11.2 Q21.7 12.4 23.2 12.4 L29.25 12.4 C33.75 12.4 36 14.65 36 19.15 L36 27.25 C36 31.75 33.75 34 29.25 34 L10.75 34 C6.25 34 4 31.75 4 27.25 Z"/>
+  <path fill="#f1fa8c" d="M10.75 17 L29.25 17 C33.75 17 36 19.25 36 23.75 L36 27.25 C36 31.75 33.75 34 29.25 34 L10.75 34 C6.25 34 4 31.75 4 27.25 L4 23.75 C4 19.25 6.25 17 10.75 17 Z"/>
 </svg>
