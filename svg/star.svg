@@ -1,12 +1,14 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Five-petal blossom: distinct petals, deep grooves (after png/star.png) -->
+  <!-- Five-petal blossom, traced from reference/star.png (Houdini original):
+       teardrop petals — blunt tip reaching r~1, near-straight ~30° flare to
+       max width at ~60% of the r~14.6 length, rounded dome — leaving thin
+       channels and a five-armed star of negative space at the center.
+       No center dot: it would fill the center star. -->
   <g fill="#f1fa8c">
-    <ellipse cx="20" cy="10" rx="5.4" ry="9" transform="rotate(0 20 20)" />
-    <ellipse cx="20" cy="10" rx="5.4" ry="9" transform="rotate(72 20 20)" />
-    <ellipse cx="20" cy="10" rx="5.4" ry="9" transform="rotate(144 20 20)" />
-    <ellipse cx="20" cy="10" rx="5.4" ry="9" transform="rotate(216 20 20)" />
-    <ellipse cx="20" cy="10" rx="5.4" ry="9" transform="rotate(288 20 20)" />
+    <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(0 20 20)"/>
+    <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(72 20 20)"/>
+    <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(144 20 20)"/>
+    <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(216 20 20)"/>
+    <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(288 20 20)"/>
   </g>
-  <!-- Bright center -->
-  <circle cx="20" cy="20" r="3" fill="#ffffff" />
 </svg>
