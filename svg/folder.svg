@@ -1,9 +1,6 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Stylized rounded folder -->
-  <g fill="#f1fa8c">
-    <!-- Tab -->
-    <rect x="4" y="7" width="14" height="10" rx="3" />
-    <!-- Body -->
-    <rect x="4" y="12" width="32" height="21" rx="4" />
-  </g>
+  <!-- Folder: back panel with smooth diagonal tab shoulder (0.55 back-layer
+       language, as in copy.svg) under a full-opacity front flap -->
+  <path fill="#f1fa8c" opacity="0.55" d="M4 30.5 L4 10.5 Q4 7 7.5 7 L15.5 7 Q17.6 7 18.9 8.7 L20.8 11.2 Q21.7 12.4 23.2 12.4 L32.5 12.4 Q36 12.4 36 15.9 L36 30.5 Q36 34 32.5 34 L7.5 34 Q4 34 4 30.5 Z"/>
+  <rect fill="#f1fa8c" x="4" y="17" width="32" height="17" rx="3.5"/>
 </svg>
