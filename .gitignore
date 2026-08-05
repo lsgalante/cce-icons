@@ -2,3 +2,7 @@
 tmp_*
 *.hip
 *.hiplc
+
+# derived build output
+xpm/
+png/

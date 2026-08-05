@@ -1,10 +1,15 @@
 #!/bin/bash
 
+# Bake the SVG sources into fixed-size, single-color XPMs.
+# NOTE: nothing in the cce workspace consumes these — the runtime path is
+# cce_ui::upload_icon, which rasterizes the SVGs directly. This script is
+# kept for any external consumer that wants pre-baked bitmaps; its output
+# (./xpm) is untracked.
+
 # Configuration
 ICON_SIZE="40x40"
 ICON_COLOR="#ae8593" # Mixed Pink and Green
 SVG_DIR="./svg"
-PNG_DIR="./png"
 OUTPUT_DIR="./xpm"
 
 # Ensure output directory exists
@@ -31,17 +36,6 @@ for svg in "$SVG_DIR"/*.svg; do
     echo "🎨 Converting & Coloring: $filename -> $name.xpm"
     # -fill + -colorize 100% applies the color while preserving alpha
     magick -background none "$svg" -fill "$ICON_COLOR" -colorize 100% -resize "$ICON_SIZE" "$output"
-    ((count++))
-done
-
-# Convert PNGs
-for png in "$PNG_DIR"/*.png; do
-    [ -e "$png" ] || continue
-    filename=$(basename -- "$png")
-    name="${filename%.*}"
-    output="$OUTPUT_DIR/$name.xpm"
-    echo "🎨 Converting & Coloring: $filename -> $name.xpm"
-    magick -background none "$png" -fill "$ICON_COLOR" -colorize 100% -resize "$ICON_SIZE" "$output"
     ((count++))
 done
 
