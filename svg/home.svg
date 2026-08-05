@@ -5,6 +5,4 @@
     <path d="M6 19 L20 6 L34 19 Z" stroke="#f1fa8c" stroke-width="4"
           stroke-linejoin="round" />
   </g>
-  <!-- Bright center (the door light) -->
-  <circle cx="20" cy="26" r="3" fill="#ffffff" />
 </svg>

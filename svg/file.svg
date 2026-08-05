@@ -4,6 +4,4 @@
         fill="#f1fa8c" />
   <!-- Fold -->
   <path d="M21 4 L21 10 Q21 14 25 14 L31 14 Z" fill="#f1fa8c" opacity="0.55" />
-  <!-- Bright center -->
-  <circle cx="20" cy="25" r="3" fill="#ffffff" />
 </svg>

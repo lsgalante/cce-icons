@@ -8,6 +8,4 @@
     <circle cx="11" cy="24" r="3" />
     <circle cx="17" cy="31" r="3" />
   </g>
-  <!-- Bright center -->
-  <circle cx="24" cy="26" r="3" fill="#ffffff" />
 </svg>

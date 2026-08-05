@@ -7,7 +7,5 @@
       <!-- Tip -->
       <path d="M16 30 L24 30 L20 38 Z" />
     </g>
-    <!-- Bright center (on the body) -->
-    <circle cx="20" cy="14" r="3" fill="#ffffff" />
   </g>
 </svg>

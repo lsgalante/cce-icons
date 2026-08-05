@@ -9,6 +9,4 @@
     <circle cx="28" cy="16" r="7" />
     <circle cx="15" cy="30" r="6" />
   </g>
-  <!-- Bright center (the hub node) -->
-  <circle cx="28" cy="16" r="3" fill="#ffffff" />
 </svg>

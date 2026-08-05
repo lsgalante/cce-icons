@@ -2,6 +2,4 @@
   <!-- Stylized rounded checkmark -->
   <path d="M7 22 L16 31 L33 10" fill="none" stroke="#f1fa8c" stroke-width="6"
         stroke-linecap="round" stroke-linejoin="round" />
-  <!-- Bright center (at the elbow) -->
-  <circle cx="16" cy="31" r="3" fill="#ffffff" />
 </svg>

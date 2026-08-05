@@ -5,6 +5,4 @@
   <!-- Arrowhead at the ring opening, along the clockwise tangent -->
   <path d="M26.6 3.8 L32.8 12.3 L22.4 14 Z" fill="#f1fa8c" stroke="#f1fa8c"
         stroke-width="2.5" stroke-linejoin="round" />
-  <!-- Bright center -->
-  <circle cx="20" cy="20" r="3" fill="#ffffff" />
 </svg>

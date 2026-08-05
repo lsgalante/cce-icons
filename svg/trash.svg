@@ -8,6 +8,4 @@
     <!-- Body (slight taper) -->
     <path d="M9 16 L31 16 L29 33 Q29 37 25 37 L15 37 Q11 37 11 33 Z" />
   </g>
-  <!-- Bright center (of the body) -->
-  <circle cx="20" cy="26" r="3" fill="#ffffff" />
 </svg>
