@@ -1,10 +1,16 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Preview: rounded picture frame with sun + mountains, magnifier over
-       the lower-right corner (flat union where the ring crosses the frame —
-       the corner shows through the lens). -->
-  <rect x="5" y="7" width="28" height="22" rx="4" fill="none" stroke="#f1fa8c" stroke-width="4" />
-  <circle cx="13.5" cy="14" r="2.6" fill="#f1fa8c" />
-  <path d="M8.5 25 L15 17.5 L19.5 22 L22.5 19 L25.5 22.3 L25.5 25 Z" fill="#f1fa8c" />
+  <!-- Preview: picture frame with sun + mountains, magnifier over the
+       lower-right corner (flat union where the ring crosses the frame —
+       the corner shows through the lens). Frame corners are squircle
+       (continuous-curvature) cubics, r=4.5, as in folder.svg: the curve
+       spans 1.5r from each corner with control points at 0.5r. The lens
+       stays a true circle. Photo motif at 0.55 back-layer opacity. -->
+  <path d="M11.75 7 L26.25 7 C30.75 7 33 9.25 33 13.75 L33 22.25 C33 26.75 30.75 29 26.25 29 L11.75 29 C7.25 29 5 26.75 5 22.25 L5 13.75 C5 9.25 7.25 7 11.75 7 Z"
+        fill="none" stroke="#f1fa8c" stroke-width="4" />
+  <g fill="#f1fa8c" opacity="0.55">
+    <circle cx="13.5" cy="14" r="2.6" />
+    <path d="M8.5 25 L15 17.5 L19.5 22 L22.5 19 L25.5 22.3 L25.5 25 Z" />
+  </g>
   <circle cx="30.5" cy="28.5" r="6" fill="none" stroke="#f1fa8c" stroke-width="4" />
   <path d="M35 33 L38 36" fill="none" stroke="#f1fa8c" stroke-width="4" stroke-linecap="round" />
 </svg>
