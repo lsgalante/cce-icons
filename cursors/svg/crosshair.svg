@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Precision variant of the default: thinner arms, open centre -->
+  <path d="M16 2.5 L16 12 M16 20 L16 29.5 M2.5 16 L12 16 M20 16 L29.5 16"
+        fill="none" stroke="#282a36" stroke-width="6" stroke-linecap="round"/>
+  <path d="M16 2.5 L16 12 M16 20 L16 29.5 M2.5 16 L12 16 M20 16 L29.5 16"
+        fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- I-beam. Hotspot centre (16,16) -->
+  <path d="M11 4.5 L21 4.5 M16 4.5 L16 27.5 M11 27.5 L21 27.5"
+        fill="none" stroke="#282a36" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M11 4.5 L21 4.5 M16 4.5 L16 27.5 M11 27.5 L21 27.5"
+        fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

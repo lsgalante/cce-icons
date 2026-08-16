@@ -6,3 +6,6 @@ tmp_*
 # derived build output
 xpm/
 png/
+
+# cursor theme build output
+cursors/dist/
