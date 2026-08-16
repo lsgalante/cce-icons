@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Layout: tiled panes on a screen plate. The plate is the 0.55 back layer
+       (as in folder.svg/copy.svg) with squircle corners r=4.5 — the curve spans
+       1.5r from each corner with control points at 0.5r, not circular rx arcs —
+       and the full-opacity panes sit inset on it, one tall beside two stacked,
+       which is the asymmetry that reads as a layout rather than a grid. -->
+  <path fill="#f1fa8c" opacity="0.55"
+        d="M3 11.75 C3 7.25 5.25 5 9.75 5 L30.25 5 C34.75 5 37 7.25 37 11.75 L37 28.25 C37 32.75 34.75 35 30.25 35 L9.75 35 C5.25 35 3 32.75 3 28.25 Z" />
+  <g fill="#f1fa8c">
+    <rect x="6.5" y="8.5" width="12" height="23" rx="3" />
+    <rect x="21.5" y="8.5" width="12" height="10" rx="3" />
+    <rect x="21.5" y="21.5" width="12" height="10" rx="3" />
+  </g>
+</svg>

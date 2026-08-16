@@ -1,0 +1,12 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cube: an isometric solid, three faces at descending opacity. This is the
+       back-layer language of folder.svg/copy.svg used as lighting rather than
+       depth — the same trick cce-ui's relief prims play, where a surface reads
+       as three-dimensional purely from how each facet catches the light. Top
+       face full, left 0.7, right 0.42; no outline, the tonal steps are the edges. -->
+  <g fill="#f1fa8c">
+    <path d="M20 6 L33 13 L20 20 L7 13 Z" />
+    <path d="M7 13 L20 20 L20 34 L7 27 Z" opacity="0.7" />
+    <path d="M33 13 L33 27 L20 34 L20 20 Z" opacity="0.42" />
+  </g>
+</svg>
