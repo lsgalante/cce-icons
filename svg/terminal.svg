@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal: solid screen panel with a prompt chevron and cursor
+       underscore in the dark crease treatment (mail.svg's flap). Panel
+       corners are squircle (continuous-curvature) cubics, r=4.5, as in
+       folder.svg: the curve spans 1.5r from each corner with control
+       points at 0.5r. -->
+  <path fill="#f1fa8c" d="M4 14.75 C4 10.25 6.25 8 10.75 8 L29.25 8 C33.75 8 36 10.25 36 14.75 L36 25.25 C36 29.75 33.75 32 29.25 32 L10.75 32 C6.25 32 4 29.75 4 25.25 Z"/>
+  <!-- Prompt: chevron + cursor underscore -->
+  <g fill="none" stroke="#282a36" stroke-width="3" stroke-linecap="round"
+     stroke-linejoin="round" opacity="0.35">
+    <path d="M10.5 14.5 L16.5 20 L10.5 25.5" />
+    <path d="M20.5 25.5 L28 25.5" />
+  </g>
+</svg>
