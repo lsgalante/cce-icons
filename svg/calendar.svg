@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Calendar: hanger stubs over a solid page panel, with the month
+       header crease and date dots in the dark treatment (mail.svg's
+       flap). Panel corners are squircle (continuous-curvature) cubics,
+       r=4.5, as in folder.svg: the curve spans 1.5r from each corner
+       with control points at 0.5r. -->
+  <g fill="none" stroke="#f1fa8c" stroke-width="4" stroke-linecap="round">
+    <path d="M13 5 L13 11" />
+    <path d="M27 5 L27 11" />
+  </g>
+  <path fill="#f1fa8c" d="M4 15.75 C4 11.25 6.25 9 10.75 9 L29.25 9 C33.75 9 36 11.25 36 15.75 L36 28.25 C36 32.75 33.75 35 29.25 35 L10.75 35 C6.25 35 4 32.75 4 28.25 Z"/>
+  <g fill="#282a36" opacity="0.35">
+    <path d="M8 15.5 L32 15.5 L32 18.5 L8 18.5 Z"/>
+    <circle cx="12.5" cy="24.5" r="2" />
+    <circle cx="20" cy="24.5" r="2" />
+    <circle cx="27.5" cy="24.5" r="2" />
+    <circle cx="12.5" cy="30.5" r="2" />
+    <circle cx="20" cy="30.5" r="2" />
+  </g>
+</svg>
