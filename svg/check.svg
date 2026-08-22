@@ -1,5 +1,5 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <!-- Stylized rounded checkmark -->
-  <path d="M7 22 L16 31 L33 10" fill="none" stroke="#f1fa8c" stroke-width="6"
+  <path d="M7 22 L16 31 L33 10" fill="none" stroke="#ffffff" stroke-width="6"
         stroke-linecap="round" stroke-linejoin="round" />
 </svg>

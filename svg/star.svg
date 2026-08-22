@@ -4,7 +4,7 @@
        max width at ~60% of the r~14.6 length, rounded dome — leaving thin
        channels and a five-armed star of negative space at the center.
        No center dot: it would fill the center star. -->
-  <g fill="#f1fa8c">
+  <g fill="#ffffff">
     <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(0 20 20)"/>
     <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(72 20 20)"/>
     <path d="M20 19.05 C18.35 16.9 15.78 14.0 15.32 11.2 C15.32 8.58 17.3 5.42 20 5.42 C22.7 5.42 24.68 8.58 24.68 11.2 C24.22 14.0 21.65 16.9 20 19.05 Z" transform="rotate(144 20 20)"/>

@@ -4,9 +4,9 @@
        rather than drawn as strokes — so the mark stays one silhouette at 16px
        and only gains its grid as it scales up. Squircle corners r=4.5: the curve
        spans 1.5r from each corner with control points at 0.5r. -->
-  <path fill="#f1fa8c" opacity="0.55"
+  <path fill="#ffffff" opacity="0.55"
         d="M5 12.75 C5 8.25 7.25 6 11.75 6 L28.25 6 C32.75 6 35 8.25 35 12.75 L35 27.25 C35 31.75 32.75 34 28.25 34 L11.75 34 C7.25 34 5 31.75 5 27.25 Z" />
-  <path fill="#f1fa8c"
+  <path fill="#ffffff"
         d="M5 12.75 C5 8.25 7.25 6 11.75 6 L28.25 6 C32.75 6 35 8.25 35 12.75 L35 15.5 L5 15.5 Z" />
   <g fill="#282a36" opacity="0.35">
     <rect x="5" y="21" width="30" height="2.5" />

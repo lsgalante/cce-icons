@@ -1,6 +1,6 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <!-- Stylized painter's palette: disc with thumb hole + paint wells -->
-  <path fill-rule="evenodd" fill="#f1fa8c"
+  <path fill-rule="evenodd" fill="#ffffff"
         d="M20 4 a16 16 0 1 0 0.01 0 Z M27 13 a4.5 4.5 0 1 0 0.01 0 Z" />
   <!-- Paint wells -->
   <g fill="#282a36" opacity="0.35">

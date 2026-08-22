@@ -1,8 +1,8 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <!-- Stylized padlock: shackle + rounded body -->
   <path d="M13 19 L13 13 Q13 5 20 5 Q27 5 27 13 L27 19" fill="none"
-        stroke="#f1fa8c" stroke-width="5" stroke-linecap="round" />
-  <rect x="8" y="17" width="24" height="18" rx="4" fill="#f1fa8c" />
-  <!-- Bright center (the keyhole) -->
-  <circle cx="20" cy="26" r="3" fill="#ffffff" />
+        stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+  <rect x="8" y="17" width="24" height="18" rx="4" fill="#ffffff" />
+  <!-- Keyhole, cut through to the background -->
+  <circle cx="20" cy="26" r="3" fill="#282a36" opacity="0.35" />
 </svg>

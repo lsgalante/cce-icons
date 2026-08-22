@@ -3,7 +3,7 @@
        r=15) with meridian + equator in the dark crease treatment
        (mail.svg's flap). Accents are inset so their strokes stay inside
        the disc. -->
-  <circle cx="20" cy="20" r="15" fill="#f1fa8c" />
+  <circle cx="20" cy="20" r="15" fill="#ffffff" />
   <g fill="none" stroke="#282a36" stroke-width="3" stroke-linecap="round"
      opacity="0.35">
     <ellipse cx="20" cy="20" rx="6.75" ry="13" />

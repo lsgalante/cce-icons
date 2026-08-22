@@ -1,6 +1,6 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <!-- Stylized envelope: rounded body + flap crease -->
-  <rect x="4" y="8" width="32" height="24" rx="4" fill="#f1fa8c" />
+  <rect x="4" y="8" width="32" height="24" rx="4" fill="#ffffff" />
   <!-- Flap crease -->
   <path d="M7 12 L20 22 L33 12" fill="none" stroke="#282a36" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" opacity="0.35" />

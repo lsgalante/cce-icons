@@ -1,5 +1,5 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <!-- Stylized rounded down-pointing triangle (treelist collapse) -->
-  <path d="M8 14 L32 14 L20 30 Z" fill="#f1fa8c" stroke="#f1fa8c"
+  <path d="M8 14 L32 14 L20 30 Z" fill="#ffffff" stroke="#ffffff"
         stroke-width="6" stroke-linejoin="round" />
 </svg>
