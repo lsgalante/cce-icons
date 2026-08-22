@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fingerprint: four ridges as nested ellipses, deliberately taller than the
+       box so the viewport clips their bottoms. The clip is the whole trick —
+       ridges that close into rings read as wifi or a target, ridges that run
+       off the bottom edge read as a fingertip pressed on glass. Centers drift
+       downward as they nest, which puts the core low and gives the arch
+       pattern. Do not "fix" the overflow. -->
+  <g fill="none" stroke="#ffffff" stroke-width="2.4">
+    <ellipse cx="20" cy="21.5" rx="14.2" ry="18.5"/>
+    <ellipse cx="20" cy="24.5" rx="10.0" ry="15.5"/>
+    <ellipse cx="20" cy="27" rx="5.8" ry="12.5"/>
+    <ellipse cx="20" cy="30.5" rx="2.5" ry="10"/>
+  </g>
+</svg>
