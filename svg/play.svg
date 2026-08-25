@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid rounded play triangle (start). Built like chevron-right — path
+       plus a round-joined stroke for the corner radius — but squared up to
+       the solid family's weight (bounds ~6..34, against circle's 5..35): a
+       triangle reads lighter than a disc at equal bounds, so it runs to the
+       fuller extent rather than the inset one. -->
+  <path d="M14.5 9 L31 20 L14.5 31 Z" fill="#ffffff" stroke="#ffffff"
+        stroke-width="6" stroke-linejoin="round" />
+</svg>

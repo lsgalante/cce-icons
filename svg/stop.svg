@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid rounded square (stop). Inset further than the play triangle and
+       the x's bars: a square fills its bounds completely, so it needs the
+       smaller extent to carry the same visual weight as the disc and the
+       triangle beside it. -->
+  <rect x="8" y="8" width="24" height="24" rx="6" fill="#ffffff" />
+</svg>
