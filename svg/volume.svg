@@ -1,0 +1,11 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized speaker: driver box + horn, two sound arcs to the right. -->
+  <g fill="#ffffff">
+    <rect x="4" y="14" width="7" height="12" rx="1.5" />
+    <path d="M10 14 L20 6 L20 34 L10 26 Z" />
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+    <path d="M25 13 Q31 20 25 27" />
+    <path d="M30 8 Q39.5 20 30 32" />
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized battery on its side: body + terminal nub. Solid, with a broad
+       body, because the status bar ghosts it under a superimposed readout —
+       the number sits where a charge gauge would. -->
+  <g fill="#ffffff">
+    <rect x="3" y="10" width="30" height="20" rx="4" />
+    <rect x="33" y="15" width="4" height="10" rx="1.5" />
+  </g>
+</svg>
