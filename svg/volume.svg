@@ -1,11 +1,17 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Stylized speaker: driver box + horn, two sound arcs to the right. -->
-  <g fill="#ffffff">
-    <rect x="4" y="14" width="7" height="12" rx="1.5" />
-    <path d="M10 14 L20 6 L20 34 L10 26 Z" />
-  </g>
-  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
-    <path d="M25 13 Q31 20 25 27" />
-    <path d="M30 8 Q39.5 20 30 32" />
+  <!-- Speaker, wireframe: driver box and horn as ONE outline — the solid
+       glyph drew them as two overlapping fills, and stroking those would
+       have put a seam down the middle where they met. Stroke 4 with
+       round joins, as mail.svg. The path is inset roughly 2 (the
+       half-stroke) from the old union silhouette, and then grown: a
+       driver box the size of the solid one has no room for a hole once
+       the wall is inked, so the speaker carries more of the box than the
+       fill did and the arcs shift right to keep their gap. They are
+       otherwise unchanged — they were already strokes. -->
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M4 14 L11.5 14 L20 6 L20 34 L11.5 26 L4 26 Z" />
+    <path d="M26 13 Q32 20 26 27" />
+    <path d="M31 8 Q40.5 20 31 32" />
   </g>
 </svg>

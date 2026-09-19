@@ -1,14 +1,19 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Stylized sun: solid disc with eight rounded rays. -->
-  <g fill="#ffffff">
-    <circle cx="20" cy="20" r="8" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(0 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(45 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(90 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(135 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(180 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(225 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(270 20 20)" />
-    <rect x="18" y="3" width="4" height="7" rx="2" transform="rotate(315 20 20)" />
+  <!-- Sun, wireframe: the disc as a ring, the eight rays unchanged. The
+       rays were already strokes in all but name — the solid glyph drew
+       them as 4-wide rounded rects, which is exactly a round-capped
+       stroke of width 4 — so only the disc changes, and it is inset 2
+       (the half-stroke) from the old r=8 fill, leaving the ring's outer
+       edge where the filled disc's edge was. -->
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+    <circle cx="20" cy="20" r="6" />
+    <path d="M20 5 L20 8" />
+    <path d="M20 5 L20 8" transform="rotate(45 20 20)" />
+    <path d="M20 5 L20 8" transform="rotate(90 20 20)" />
+    <path d="M20 5 L20 8" transform="rotate(135 20 20)" />
+    <path d="M20 5 L20 8" transform="rotate(180 20 20)" />
+    <path d="M20 5 L20 8" transform="rotate(225 20 20)" />
+    <path d="M20 5 L20 8" transform="rotate(270 20 20)" />
+    <path d="M20 5 L20 8" transform="rotate(315 20 20)" />
   </g>
 </svg>

@@ -1,11 +1,9 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
   <!-- The speaker of volume.svg with the arcs replaced by a cross. -->
-  <g fill="#ffffff">
-    <rect x="4" y="14" width="7" height="12" rx="1.5" />
-    <path d="M10 14 L20 6 L20 34 L10 26 Z" />
-  </g>
-  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
-    <path d="M25 14 L35 26" />
-    <path d="M35 14 L25 26" />
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M4 14 L11.5 14 L20 6 L20 34 L11.5 26 L4 26 Z" />
+    <path d="M26 14 L36 26" />
+    <path d="M36 14 L26 26" />
   </g>
 </svg>

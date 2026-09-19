@@ -1,18 +1,15 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- battery.svg with a small bolt badged on the body's top-left corner,
-       clear of the middle where a readout's number or gauge would go; the
-       mask knocks a gap out of the body around it so it reads as a bolt ON
-       the battery, not a blob in it. -->
-  <defs>
-    <mask id="gap">
-      <rect width="40" height="40" fill="#ffffff" />
-      <path d="M8.1 1.5 L3.6 10.9 L6.8 10.9 L5.4 18.5 L10.4 8.7 L7.2 8.7 Z" fill="#000000"
-            stroke="#000000" stroke-width="3" stroke-linejoin="round" />
-    </mask>
-  </defs>
-  <g fill="#ffffff">
-    <rect x="3" y="10" width="30" height="20" rx="4" mask="url(#gap)" />
-    <rect x="33" y="15" width="4" height="10" rx="1.5" />
-    <path d="M8.1 1.5 L3.6 10.9 L6.8 10.9 L5.4 18.5 L10.4 8.7 L7.2 8.7 Z" />
+  <!-- battery.svg with the bolt INSIDE the body. The solid glyph had to
+       badge it on the top-left corner and mask a gap around it, there
+       being no inside to put it in; an outlined body has one, which is
+       where the charging bolt belongs. Filled rather than stroked, so it
+       reads as a bolt and not as a third outline, and sized to nearly
+       fill the wall's inner edge (7..29 x 14..26) — a smaller one read
+       as a spark rather than a bolt at bar size. -->
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M8.75 12 L27.25 12 C29.75 12, 31 13.25, 31 15.75 L31 24.25 C31 26.75, 29.75 28, 27.25 28 L8.75 28 C6.25 28, 5 26.75, 5 24.25 L5 15.75 C5 13.25, 6.25 12, 8.75 12 Z" />
+    <path d="M34.5 17 L34.5 23" />
   </g>
+  <path fill="#ffffff" d="M20.5 15 L15.5 21 L20 21 L19.5 25 L24.5 19 L20 19 Z" />
 </svg>

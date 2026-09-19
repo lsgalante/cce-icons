@@ -1,21 +1,35 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-  <!-- Stylized processor: a square die with three pins a side. The die is
-       solid so a readout can sit on it. -->
-  <g fill="#ffffff">
-    <rect x="10" y="10" width="20" height="20" rx="3" />
-    <!-- top / bottom pins -->
-    <rect x="12"   y="4"  width="3" height="7" rx="1.5" />
-    <rect x="18.5" y="4"  width="3" height="7" rx="1.5" />
-    <rect x="25"   y="4"  width="3" height="7" rx="1.5" />
-    <rect x="12"   y="29" width="3" height="7" rx="1.5" />
-    <rect x="18.5" y="29" width="3" height="7" rx="1.5" />
-    <rect x="25"   y="29" width="3" height="7" rx="1.5" />
-    <!-- left / right pins -->
-    <rect x="4"  y="12"   width="7" height="3" rx="1.5" />
-    <rect x="4"  y="18.5" width="7" height="3" rx="1.5" />
-    <rect x="4"  y="25"   width="7" height="3" rx="1.5" />
-    <rect x="29" y="12"   width="7" height="3" rx="1.5" />
-    <rect x="29" y="18.5" width="7" height="3" rx="1.5" />
-    <rect x="29" y="25"   width="7" height="3" rx="1.5" />
+  <!-- Processor, wireframe: the die as an outline with three pins a side.
+       Stroke 4 for the die, the outline weight of mail.svg's envelope;
+       the pins are 3, so the 6.5 between their centers stays an open gap
+       at bar size rather than closing into a comb. Die corners are
+       squircle (continuous-curvature) cubics, r=3 — the curve spans 1.5r
+       from each corner with control points at 0.5r, as in folder.svg,
+       at a tighter radius than the panels because a chip is not a card.
+       The die is drawn LARGER than the solid glyph's 10..30 square and
+       the pins shorter: outlined, a small die and long pins read as a
+       hash mark at bar size — the die has to carry the glyph, so it
+       keeps the silhouette and the pins are stubs on it. The pins' inner
+       ends stop on the die's centerline, inside its wall, where the two
+       strokes merge. -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="4"
+          d="M15.25 10 L24.75 10 C28.25 10, 30 11.75, 30 15.25 L30 24.75 C30 28.25, 28.25 30, 24.75 30 L15.25 30 C11.75 30, 10 28.25, 10 24.75 L10 15.25 C10 11.75, 11.75 10, 15.25 10 Z" />
+    <g stroke-width="3">
+      <!-- top / bottom pins -->
+      <path d="M14 10 L14 6" />
+      <path d="M20 10 L20 6" />
+      <path d="M26 10 L26 6" />
+      <path d="M14 30 L14 34" />
+      <path d="M20 30 L20 34" />
+      <path d="M26 30 L26 34" />
+      <!-- left / right pins -->
+      <path d="M10 14 L6 14" />
+      <path d="M10 20 L6 20" />
+      <path d="M10 26 L6 26" />
+      <path d="M30 14 L34 14" />
+      <path d="M30 20 L34 20" />
+      <path d="M30 26 L34 26" />
+    </g>
   </g>
 </svg>
