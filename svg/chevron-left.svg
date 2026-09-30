@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized rounded left-pointing triangle (chevron-right mirrored: a stepper's back arrow) -->
+  <path d="M26 8 L10 20 L26 32 Z" fill="#ffffff" stroke="#ffffff"
+        stroke-width="6" stroke-linejoin="round" />
+</svg>
