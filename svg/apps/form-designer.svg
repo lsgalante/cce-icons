@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Form designer (Qt Widgets Designer): a wireframe window with a title-bar seam, a full-white widget block and two back-layer ones laid out under it. -->
+<path d="M5 12.75 C5 8.25 7.25 6 11.75 6 L28.25 6 C32.75 6 35 8.25 35 12.75 L35 27.25 C35 31.75 32.75 34 28.25 34 L11.75 34 C7.25 34 5 31.75 5 27.25 Z" fill="none" stroke="#ffffff" stroke-width="4" />
+  <path d="M5 13 L35 13" fill="none" stroke="#ffffff" stroke-width="3" />
+  <rect x="10" y="17.5" width="20" height="5" rx="2" fill="#ffffff" />
+  <g fill="#ffffff" opacity="0.55">
+    <rect x="10" y="25" width="9" height="5" rx="2" />
+    <rect x="21" y="25" width="9" height="5" rx="2" />
+  </g>
+</svg>

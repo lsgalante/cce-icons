@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Firefox: the globe at 0.55 back-layer opacity, held by the fox - a full-white crescent, heaviest at the lower left, opening to the upper right where its ear pricks up. -->
+<circle cx="23" cy="17" r="9.5" fill="#ffffff" opacity="0.55" />
+  <path fill="#ffffff" fill-rule="evenodd" d="M20 5 A15 15 0 1 0 35 20 A15 15 0 0 0 20 5 Z M24.5 5.5 A11 11 0 1 1 24.49 5.5 Z" />
+  <path fill="#ffffff" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" d="M12 8 L11 2.5 L17 5.5 Z" />
+</svg>

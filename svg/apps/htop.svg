@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- htop: a terminal panel carrying three dark meter bars of different fill. -->
+<path fill="#ffffff" d="M4 14.75 C4 10.25 6.25 8 10.75 8 L29.25 8 C33.75 8 36 10.25 36 14.75 L36 25.25 C36 29.75 33.75 32 29.25 32 L10.75 32 C6.25 32 4 29.75 4 25.25 Z" />
+  <path d="M9.5 14 L28 14 M9.5 20 L20 20 M9.5 26 L24 26" stroke-width="3" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

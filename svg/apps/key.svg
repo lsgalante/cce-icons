@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Key (KeePassXC): a solid bow with a dark hole, a shaft, and two bit teeth. -->
+<circle cx="12" cy="20" r="8" fill="#ffffff" />
+  <circle cx="10.5" cy="20" r="2.75" fill="#282a36" opacity="0.35" />
+  <path fill="#ffffff" d="M18 17.5 L34 17.5 Q36 17.5 36 19.5 L36 20.5 Q36 22.5 34 22.5 L18 22.5 Z" />
+  <g fill="#ffffff">
+    <rect x="26" y="21" width="3.5" height="7" rx="1.5" />
+    <rect x="31.5" y="21" width="3.5" height="5" rx="1.5" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Anvil (FontForge): a solid anvil - horn to the left, face across the top - on a foot. -->
+<path fill="#ffffff" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" d="M4 11 L35 11 L35 18 C31 18.5 27 20 25.5 23 L25.5 27 L14.5 27 L14.5 23 C13 20 10 18 5 17 C4.5 15 4 13 4 11 Z" />
+  <rect x="9" y="27" width="22" height="6.5" rx="2" fill="#ffffff" />
+  <path d="M14.5 15 L25 15" stroke-width="2.5" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

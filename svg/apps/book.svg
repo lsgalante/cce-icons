@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Open book (Qt Assistant): two pages lit like cube.svg's faces - left full, right at 0.55 - meeting at a spine that dips. -->
+<path fill="#ffffff" d="M19 10 C14.5 7.5 9 7.5 4.5 9 L4.5 31 C9 29.5 14.5 29.5 19 32 Z" />
+  <path fill="#ffffff" opacity="0.55" d="M21 10 C25.5 7.5 31 7.5 35.5 9 L35.5 31 C31 29.5 25.5 29.5 21 32 Z" />
+</svg>

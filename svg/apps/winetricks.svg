@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Winetricks: a solid wine glass, its wine line a dark crease, with a sparkle off the rim. -->
+<path fill="#ffffff" d="M11 5 L29 5 C30 15 27 21.5 20 22.5 C13 21.5 10 15 11 5 Z" />
+  <path d="M12.5 11.5 L27.5 11.5" stroke-width="2.5" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M20 22 L20 32" fill="none" stroke="#ffffff" stroke-width="3.5" />
+  <rect x="12" y="31.5" width="16" height="4" rx="2" fill="#ffffff" />
+  <path fill="#ffffff" d="M33 4 Q33.6 7.4 37 8 Q33.6 8.6 33 12 Q32.4 8.6 29 8 Q32.4 7.4 33 4 Z" />
+</svg>

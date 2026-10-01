@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Satellite (xgps): a solid body between two 0.55 solar wings on its diagonal, a dark seam across each wing, and two signal arcs to the lower left. -->
+<g transform="rotate(-45 21 19)">
+    <rect x="16.5" y="14.5" width="9" height="9" rx="2" fill="#ffffff" />
+    <g fill="#ffffff" opacity="0.55">
+      <rect x="3.5" y="12.5" width="11" height="13" rx="1.5" />
+      <rect x="27.5" y="12.5" width="11" height="13" rx="1.5" />
+    </g>
+    <path d="M9 13.5 L9 24.5 M33 13.5 L33 24.5" stroke-width="2" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <path d="M4.5 27 A9 9 0 0 0 13 35.5" />
+    <path d="M9.5 28 A4 4 0 0 0 12 30.5" />
+  </g>
+</svg>

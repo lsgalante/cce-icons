@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Zeroconf VNC browser (Avahi): discovery arcs over a small monitor, its screen solid. -->
+<g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <path d="M15.88 13.37 A5.5 5.5 0 0 1 24.12 13.37" />
+    <path d="M11.75 9.74 A11 11 0 0 1 28.25 9.74" />
+  </g>
+  <path fill="#ffffff" d="M7 24.0 C7 20.0 9.0 18 13.0 18 L27.0 18 C31.0 18 33 20.0 33 24.0 L33 26.0 C33 30.0 31.0 32 27.0 32 L13.0 32 C9.0 32 7 30.0 7 26.0 Z" />
+  <rect x="14" y="33" width="12" height="3" rx="1.5" fill="#ffffff" />
+</svg>

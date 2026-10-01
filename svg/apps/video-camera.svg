@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Video camera (Zoom): squircle body with the lens hood as a round-joined trapezoid off its right side. -->
+<path fill="#ffffff" d="M4 17.75 C4 13.25 6.25 11 10.75 11 L19.25 11 C23.75 11 26 13.25 26 17.75 L26 22.25 C26 26.75 23.75 29 19.25 29 L10.75 29 C6.25 29 4 26.75 4 22.25 Z" />
+  <path fill="#ffffff" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" d="M29 17.5 L35 13.5 L35 26.5 L29 22.5 Z" />
+</svg>

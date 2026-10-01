@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Obsidian: a crystal in four facets at descending opacity around an off-centre seam point, no outline. -->
+<g fill="#ffffff">
+    <path d="M20 3.5 L18 21 L8.5 21.5 Z" />
+    <path d="M20 3.5 L31.5 13 L18 21 Z" opacity="0.7" />
+    <path d="M8.5 21.5 L18 21 L16 36.5 Z" opacity="0.55" />
+    <path d="M18 21 L31.5 13 L28.5 31.5 L16 36.5 Z" opacity="0.42" />
+  </g>
+</svg>

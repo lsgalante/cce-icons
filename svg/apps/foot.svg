@@ -1,0 +1,11 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Foot: a footprint - a tilted sole with five toes stepping down in size. -->
+<g fill="#ffffff">
+    <ellipse cx="19" cy="26.5" rx="7.5" ry="9.5" transform="rotate(-12 19 26.5)" />
+    <circle cx="14.5" cy="10" r="3.6" />
+    <circle cx="21" cy="8.5" r="2.7" />
+    <circle cx="26" cy="10" r="2.3" />
+    <circle cx="29.5" cy="13.5" r="2" />
+    <circle cx="31.5" cy="18" r="1.7" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ubisoft Connect: the swirl - a solid disc with a three-quarter dark ring and an off-centre dot. -->
+<circle cx="20" cy="20" r="15" fill="#ffffff" />
+  <path d="M28.5 20 A8.5 8.5 0 1 1 20 11.5" stroke-width="3" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="21.5" cy="18.5" r="2.5" fill="#282a36" opacity="0.35" />
+</svg>

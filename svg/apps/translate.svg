@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Translation (Qt Linguist): two speech bubbles, the back one at 0.55, the front one solid with a dark crease line of text. -->
+<path fill="#ffffff" opacity="0.55" d="M15 11.0 C15 7.0 17.0 5 21.0 5 L30.0 5 C34.0 5 36 7.0 36 11.0 L36 14.0 C36 18.0 34.0 20 30.0 20 L21.0 20 C17.0 20 15 18.0 15 14.0 Z M30 19 L33 24 L25 19 Z" />
+  <path fill="#ffffff" d="M4 20.0 C4 16.0 6.0 14 10.0 14 L20.0 14 C24.0 14 26 16.0 26 20.0 L26 24.0 C26 28.0 24.0 30 20.0 30 L10.0 30 C6.0 30 4 28.0 4 24.0 Z" />
+  <path fill="#ffffff" d="M9 29 L7 35 L15 29 Z" />
+  <path d="M9.5 22 L20.5 22" stroke-width="3" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

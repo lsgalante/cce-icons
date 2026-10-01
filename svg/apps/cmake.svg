@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- CMake: the triangle in three facets lit like cube.svg - full, 0.7, 0.42 - with no outline; the tonal steps are the edges. -->
+<g fill="#ffffff">
+    <path d="M20 4 L22 26 L4 34 Z" />
+    <path d="M20 4 L36 34 L22 26 Z" opacity="0.7" />
+    <path d="M4 34 L22 26 L36 34 Z" opacity="0.42" />
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hardware topology (lstopo): a wireframe package holding two back-layer cores, each with two solid units. -->
+<path d="M5 11.0 C5 7.0 7.0 5 11.0 5 L29.0 5 C33.0 5 35 7.0 35 11.0 L35 29.0 C35 33.0 33.0 35 29.0 35 L11.0 35 C7.0 35 5 33.0 5 29.0 Z" fill="none" stroke="#ffffff" stroke-width="3" />
+  <g fill="#ffffff" opacity="0.55">
+    <rect x="10" y="10" width="9" height="20" rx="2" />
+    <rect x="21" y="10" width="9" height="20" rx="2" />
+  </g>
+  <g fill="#ffffff">
+    <rect x="11.5" y="22" width="6" height="6" rx="1.5" />
+    <rect x="22.5" y="22" width="6" height="6" rx="1.5" />
+  </g>
+</svg>

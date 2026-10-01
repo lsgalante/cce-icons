@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Protontricks: winetricks' glass standing in front of a 0.55 disc - the Steam runtime behind it. -->
+<circle cx="25" cy="15" r="11" fill="#ffffff" opacity="0.55" />
+  <path fill="#ffffff" d="M8 7 L24 7 C25 16 22.5 21.5 16 22.5 C9.5 21.5 7 16 8 7 Z" />
+  <path d="M9.5 13 L22.5 13" stroke-width="2.5" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M16 22 L16 32" fill="none" stroke="#ffffff" stroke-width="3.5" />
+  <rect x="8" y="31.5" width="16" height="4" rx="2" fill="#ffffff" />
+</svg>

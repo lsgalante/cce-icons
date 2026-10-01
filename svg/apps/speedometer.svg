@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Speedometer (xgpsspeed): a wireframe gauge arc with 0.55 ticks and a solid needle on a hub. -->
+<path d="M8.7 30.5 A15 15 0 1 1 31.3 30.5" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  <path d="M20 22 L28 13" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="20" cy="22" r="3.75" fill="#ffffff" />
+</svg>

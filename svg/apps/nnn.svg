@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- nnn: folder.svg's back panel and front flap, with a dark prompt chevron on the flap. -->
+<path fill="#ffffff" opacity="0.55" d="M4 13.75 C4 9.25 6.25 7 10.75 7 L15.5 7 Q17.6 7 18.9 8.7 L20.8 11.2 Q21.7 12.4 23.2 12.4 L29.25 12.4 C33.75 12.4 36 14.65 36 19.15 L36 27.25 C36 31.75 33.75 34 29.25 34 L10.75 34 C6.25 34 4 31.75 4 27.25 Z" />
+  <path fill="#ffffff" d="M4 23.75 C4 19.25 6.25 17 10.75 17 L29.25 17 C33.75 17 36 19.25 36 23.75 L36 27.25 C36 31.75 33.75 34 29.25 34 L10.75 34 C6.25 34 4 31.75 4 27.25 Z" />
+  <path d="M11 21.5 L15 25.5 L11 29.5 M18.5 29.5 L24 29.5" stroke-width="2.75" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

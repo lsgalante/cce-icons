@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- btop: a terminal panel (terminal.svg's) carrying a dark line graph. -->
+<path fill="#ffffff" d="M4 14.75 C4 10.25 6.25 8 10.75 8 L29.25 8 C33.75 8 36 10.25 36 14.75 L36 25.25 C36 29.75 33.75 32 29.25 32 L10.75 32 C6.25 32 4 29.75 4 25.25 Z" />
+  <path d="M9 26 L14 20 L18 23 L23 14 L27 19 L31 16" stroke-width="3" fill="none" stroke="#282a36" opacity="0.35" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

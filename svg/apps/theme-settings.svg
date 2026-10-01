@@ -1,0 +1,13 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Theme settings (qt5ct/qt6ct): three slider tracks at 0.55 with solid knobs set at different points. -->
+<g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.55">
+    <path d="M6 10 L34 10" />
+    <path d="M6 20 L34 20" />
+    <path d="M6 30 L34 30" />
+  </g>
+  <g fill="#ffffff">
+    <circle cx="25" cy="10" r="4.5" />
+    <circle cx="13" cy="20" r="4.5" />
+    <circle cx="21" cy="30" r="4.5" />
+  </g>
+</svg>
