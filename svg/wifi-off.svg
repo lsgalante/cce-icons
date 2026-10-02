@@ -1,0 +1,22 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- The fan of wifi.svg struck through, for an interface that is not
+       associated. The slash is knocked out of the arcs with a margin (the
+       mask's wider black stroke along the same line) rather than drawn
+       over them: at bar size a slash touching the arcs fuses with them
+       into a blot, and the gap is what keeps it a stroke. -->
+  <defs>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+      <rect width="40" height="40" fill="#ffffff" />
+      <path d="M7 6 L33 34" stroke="#000000" stroke-width="10" stroke-linecap="round" />
+    </mask>
+  </defs>
+  <g mask="url(#cut)">
+    <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+      <path d="M14.34 25.34 A8 8 0 0 1 25.66 25.34" />
+      <path d="M9.04 20.04 A15.5 15.5 0 0 1 30.96 20.04" />
+      <path d="M3.74 14.74 A23 23 0 0 1 36.26 14.74" />
+    </g>
+    <circle cx="20" cy="31" r="2.5" fill="#ffffff" />
+  </g>
+  <path d="M7 6 L33 34" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+</svg>
