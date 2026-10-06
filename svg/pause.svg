@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Two solid rounded bars (pause), play.svg's partner. Each bar is as tall
+       as stop.svg's square and the gap between them is its width, so the
+       pair carries the solid family's weight. -->
+  <g fill="#ffffff">
+    <rect x="9" y="8" width="8" height="24" rx="3" />
+    <rect x="23" y="8" width="8" height="24" rx="3" />
+  </g>
+</svg>

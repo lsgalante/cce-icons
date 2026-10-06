@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Step forward one frame: play.svg's triangle, narrowed, against a bar
+       at its tip. The bar is pause.svg's at three quarters the width. -->
+  <g fill="#ffffff">
+    <path d="M10 10 L23.5 20 L10 30 Z" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" />
+    <rect x="27" y="7" width="6" height="26" rx="3" />
+  </g>
+</svg>

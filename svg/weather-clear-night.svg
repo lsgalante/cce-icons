@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clear sky, night: a crescent moon.
+       Part of the weather-* family, which carries its OWN colours where every
+       other glyph is white and tinted when drawn (the user's call, 2026-10-05):
+       sun #ffb82e, moon #dbe0f2, cloud #ccd4e0, dark cloud #858c9e, rain
+       #5c9eff, snow #f0f5ff, bolt #ffd640: cce-weather's glyph colours
+       before these replaced its primitive drawing. Draw them untinted. -->
+  <mask id="m"><rect width="40" height="40" fill="#fff" /><circle cx="27.15" cy="14.15" r="11.05" fill="#000" /></mask>
+  <circle cx="20" cy="20" r="13" fill="#dbe0f2" mask="url(#m)" />
+</svg>

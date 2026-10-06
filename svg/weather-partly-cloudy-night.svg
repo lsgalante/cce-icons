@@ -1,0 +1,16 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Partly cloudy, night: the crescent behind the cloud, turned so its lit
+       limb is the side the cloud leaves showing.
+       Part of the weather-* family, which carries its OWN colours where every
+       other glyph is white and tinted when drawn (the user's call, 2026-10-05):
+       sun #ffb82e, moon #dbe0f2, cloud #ccd4e0, dark cloud #858c9e, rain
+       #5c9eff, snow #f0f5ff, bolt #ffd640: cce-weather's glyph colours
+       before these replaced its primitive drawing. Draw them untinted. -->
+  <mask id="m"><rect width="40" height="40" fill="#fff" /><circle cx="22.05" cy="8.45" r="7.65" fill="#000" /></mask>
+  <circle cx="27" cy="12.5" r="9" fill="#dbe0f2" mask="url(#m)" />
+  <g fill="#ccd4e0" transform="translate(-1.5 1.5) scale(0.95)">
+    <circle cx="14" cy="21" r="8" />
+    <circle cx="25" cy="18" r="10" />
+    <rect x="6" y="21" width="28" height="10" rx="5" />
+  </g>
+</svg>

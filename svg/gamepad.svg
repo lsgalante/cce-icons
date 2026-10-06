@@ -1,0 +1,11 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Game controller: a rounded body with two grips, a d-pad and two
+       buttons knocked out in the dark inset treatment (keyboard.svg). -->
+  <path fill="#ffffff" d="M12 10 L28 10 C33 10 35.5 13 36.5 18 L38 26 C38.8 30.5 35.5 33 32 31 L27 26 L13 26 L8 31 C4.5 33 1.2 30.5 2 26 L3.5 18 C4.5 13 7 10 12 10 Z" />
+  <g fill="#282a36" opacity="0.35">
+    <rect x="9" y="16.75" width="9" height="3" rx="1.2" />
+    <rect x="12" y="13.75" width="3" height="9" rx="1.2" />
+    <circle cx="27" cy="15.5" r="2" />
+    <circle cx="30.5" cy="20" r="2" />
+  </g>
+</svg>

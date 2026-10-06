@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Error: circle.svg's disc with an exclamation mark knocked out dark
+       (warning.svg's mark, on the disc). -->
+  <circle cx="20" cy="20" r="15" fill="#ffffff" />
+  <g fill="#282a36" opacity="0.35">
+    <rect x="18.25" y="10.5" width="3.5" height="12" rx="1.75" />
+    <circle cx="20" cy="27.75" r="2" />
+  </g>
+</svg>

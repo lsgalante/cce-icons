@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fog: a dark cloud over three bars of haze.
+       Part of the weather-* family, which carries its OWN colours where every
+       other glyph is white and tinted when drawn (the user's call, 2026-10-05):
+       sun #ffb82e, moon #dbe0f2, cloud #ccd4e0, dark cloud #858c9e, rain
+       #5c9eff, snow #f0f5ff, bolt #ffd640: cce-weather's glyph colours
+       before these replaced its primitive drawing. Draw them untinted. -->
+  <g fill="#858c9e" transform="translate(0 -10) scale(1.0)">
+    <circle cx="14" cy="21" r="8" />
+    <circle cx="25" cy="18" r="10" />
+    <rect x="6" y="21" width="28" height="10" rx="5" />
+  </g>
+  <g stroke="#ccd4e0" stroke-width="3" stroke-linecap="round">
+    <path d="M8 27 L28 27" />
+    <path d="M13 32 L33 32" />
+    <path d="M9 37 L27 37" />
+  </g>
+</svg>

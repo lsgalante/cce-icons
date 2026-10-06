@@ -1,0 +1,19 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clear sky, day: the sun, a disc in a ring of round-capped rays.
+       Part of the weather-* family, which carries its OWN colours where every
+       other glyph is white and tinted when drawn (the user's call, 2026-10-05):
+       sun #ffb82e, moon #dbe0f2, cloud #ccd4e0, dark cloud #858c9e, rain
+       #5c9eff, snow #f0f5ff, bolt #ffd640: cce-weather's glyph colours
+       before these replaced its primitive drawing. Draw them untinted. -->
+  <circle cx="20" cy="20" r="7.5" fill="#ffb82e" />
+  <g stroke="#ffb82e" stroke-width="2.85" stroke-linecap="round">
+    <path d="M30.88 20.00 L35.00 20.00" />
+    <path d="M27.69 27.69 L30.61 30.61" />
+    <path d="M20.00 30.88 L20.00 35.00" />
+    <path d="M12.31 27.69 L9.39 30.61" />
+    <path d="M9.12 20.00 L5.00 20.00" />
+    <path d="M12.31 12.31 L9.39 9.39" />
+    <path d="M20.00 9.12 L20.00 5.00" />
+    <path d="M27.69 12.31 L30.61 9.39" />
+  </g>
+</svg>

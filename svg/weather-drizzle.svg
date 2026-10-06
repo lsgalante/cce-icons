@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Drizzle: the cloud over three short, light streaks.
+       Part of the weather-* family, which carries its OWN colours where every
+       other glyph is white and tinted when drawn (the user's call, 2026-10-05):
+       sun #ffb82e, moon #dbe0f2, cloud #ccd4e0, dark cloud #858c9e, rain
+       #5c9eff, snow #f0f5ff, bolt #ffd640: cce-weather's glyph colours
+       before these replaced its primitive drawing. Draw them untinted. -->
+  <g fill="#ccd4e0" transform="translate(0 -9) scale(1.0)">
+    <circle cx="14" cy="21" r="8" />
+    <circle cx="25" cy="18" r="10" />
+    <rect x="6" y="21" width="28" height="10" rx="5" />
+  </g>
+  <g stroke="#5c9eff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M12 29 L10.20 33.50" />
+    <path d="M20 31 L18.20 35.50" />
+    <path d="M28 29 L26.20 33.50" />
+  </g>
+</svg>

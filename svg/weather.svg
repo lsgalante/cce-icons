@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Weather: a sun behind cloud.svg's cloud. The sun is the back layer
+       at 0.55, its rays round-capped strokes stopping short of the disc;
+       the cloud is the front layer, moved down-left to overlap it. -->
+  <g opacity="0.55">
+    <circle cx="26" cy="14" r="6" fill="#ffffff" />
+    <g fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+      <path d="M26 2.5 L26 4.5" />
+      <path d="M37.5 14 L35.5 14" />
+      <path d="M34.1 5.9 L32.7 7.3" />
+      <path d="M17.9 5.9 L19.3 7.3" />
+      <path d="M34.1 22.1 L32.7 20.7" />
+    </g>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="12" cy="24" r="7" />
+    <circle cx="22" cy="21.5" r="8.5" />
+    <rect x="4" y="24" width="27" height="10" rx="5" />
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- A file of one kind: file.svg's sheet as the 0.55 back layer, with
+       play.svg's triangle, small at full opacity in its body, below the fold. -->
+  <path d="M13 4 Q9 4 9 8 L9 32 Q9 36 13 36 L27 36 Q31 36 31 32 L31 14 L21 4 Z"
+        fill="#ffffff" opacity="0.55" />
+  <path d="M17 20.5 L25 26 L17 31.5 Z" fill="#ffffff" stroke="#ffffff"
+        stroke-width="4" stroke-linejoin="round" />
+</svg>

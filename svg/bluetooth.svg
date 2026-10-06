@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Bluetooth rune (Hagall over Bjarkan, as the mark is drawn): a
+       vertical stem with the two crossing arms. Stroke 4 with round joins,
+       as mail.svg. -->
+  <path d="M11 13 L28 27 L20 34 L20 6 L28 13 L11 27" fill="none" stroke="#ffffff"
+        stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

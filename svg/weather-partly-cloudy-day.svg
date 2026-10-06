@@ -1,0 +1,24 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Partly cloudy, day: the sun behind cloud.svg's cloud (weather.svg in colour).
+       Part of the weather-* family, which carries its OWN colours where every
+       other glyph is white and tinted when drawn (the user's call, 2026-10-05):
+       sun #ffb82e, moon #dbe0f2, cloud #ccd4e0, dark cloud #858c9e, rain
+       #5c9eff, snow #f0f5ff, bolt #ffd640: cce-weather's glyph colours
+       before these replaced its primitive drawing. Draw them untinted. -->
+  <circle cx="26" cy="14" r="5" fill="#ffb82e" />
+  <g stroke="#ffb82e" stroke-width="1.9" stroke-linecap="round">
+    <path d="M33.25 14.00 L36.00 14.00" />
+    <path d="M31.13 19.13 L33.07 21.07" />
+    <path d="M26.00 21.25 L26.00 24.00" />
+    <path d="M20.87 19.13 L18.93 21.07" />
+    <path d="M18.75 14.00 L16.00 14.00" />
+    <path d="M20.87 8.87 L18.93 6.93" />
+    <path d="M26.00 6.75 L26.00 4.00" />
+    <path d="M31.13 8.87 L33.07 6.93" />
+  </g>
+  <g fill="#ccd4e0" transform="translate(-1.5 1.5) scale(0.95)">
+    <circle cx="14" cy="21" r="8" />
+    <circle cx="25" cy="18" r="10" />
+    <rect x="6" y="21" width="28" height="10" rx="5" />
+  </g>
+</svg>

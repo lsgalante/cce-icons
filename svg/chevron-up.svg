@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized rounded up-pointing triangle (chevron-down flipped: an ascending sort mark) -->
+  <path d="M8 26 L32 26 L20 10 Z" fill="#ffffff" stroke="#ffffff"
+        stroke-width="6" stroke-linejoin="round" />
+</svg>
