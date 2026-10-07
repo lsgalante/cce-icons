@@ -1,0 +1,16 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Model: cube.svg's solid at 0.72 scale, ringed by an orbit — the object
+       you turn to look at, where cube.svg alone is the object you build
+       (cce-designer). The ring's far half passes behind the solid at the
+       0.55 back-layer opacity; its near half crosses in front at full and
+       ends in an arrowhead turning up the right side, the way a drag turns
+       the view. Facets keep cube.svg's lighting: top 1, left 0.7, right 0.42. -->
+  <path d="M3 24 A17 6.5 0 0 1 37 24" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.55" />
+  <g fill="#ffffff">
+    <path d="M20 7.42 L29.36 12.46 L20 17.5 L10.64 12.46 Z" />
+    <path d="M10.64 12.46 L20 17.5 L20 27.58 L10.64 22.54 Z" opacity="0.7" />
+    <path d="M29.36 12.46 L29.36 22.54 L20 27.58 L20 17.5 Z" opacity="0.42" />
+  </g>
+  <path d="M3 24 A17 6.5 0 0 0 37 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M37 17.8 L39.8 24 L34.2 24 Z" fill="#ffffff" />
+</svg>
