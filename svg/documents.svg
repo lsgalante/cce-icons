@@ -1,0 +1,19 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Documents: a solid typeset page with a folded corner over a heading
+       rule and a paragraph; the flap's underside and the lines both take the
+       dark crease treatment (mail.svg's flap, notes.svg's ruling). Set apart
+       from file.svg's blank sheet by the text, and from notes.svg by the
+       fold and the missing binding. Uncut corners are squircle
+       (continuous-curvature) cubics, r=4.5, as in folder.svg: the curve
+       spans 1.5r from each corner with control points at 0.5r. -->
+  <path fill="#ffffff" d="M14.75 4 L24 4 L32 12 L32 29.25 C32 33.75 29.75 36 25.25 36 L14.75 36 C10.25 36 8 33.75 8 29.25 L8 10.75 C8 6.25 10.25 4 14.75 4 Z" />
+  <path fill="#282a36" opacity="0.35" d="M24 4 L24 9 Q24 12 27 12 L32 12 Z" />
+  <g fill="none" stroke="#282a36" stroke-linecap="round" opacity="0.35">
+    <path d="M13 11 L19.5 11" stroke-width="3" />
+    <g stroke-width="2.5">
+      <path d="M13 17.5 L27 17.5" />
+      <path d="M13 23 L27 23" />
+      <path d="M13 28.5 L22 28.5" />
+    </g>
+  </g>
+</svg>
