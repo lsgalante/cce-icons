@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bold: a capital B drawn as geometry (see font.svg on why not <text>),
+       stroked heavier than the set's 4.5 so the mark itself says "bold".
+       The lower bowl is the wider, as a B's is. -->
+  <path d="M12 7 L12 33" fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" />
+  <path d="M12 7 L20.5 7 A6 6 0 0 1 20.5 19 L12 19 M12 19 L22 19 A7 7 0 0 1 22 33 L12 33"
+        fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

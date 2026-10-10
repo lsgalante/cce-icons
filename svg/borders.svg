@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Borders: four cells, the outline full strength and the inner rules a
+       back layer, so the mark reads as "edges of cells" rather than a grid
+       (table.svg is the grid). -->
+  <path d="M20 6.5 L20 33.5 M6.5 20 L33.5 20" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.55" />
+  <rect x="6.5" y="6.5" width="27" height="27" rx="2.5" fill="none" stroke="#ffffff" stroke-width="4" />
+</svg>

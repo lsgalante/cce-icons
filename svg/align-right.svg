@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Align right: four lines of "text", long and short alternating, the short
+       ones set to the right. The long lines are the full measure, so only the
+       short ones say which way the text sits. -->
+  <path d="M6 9 L34 9 M17 16.5 L34 16.5 M6 24 L34 24 M17 31.5 L34 31.5"
+        fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+</svg>

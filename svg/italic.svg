@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Italic: a slanted capital I with its serif bars, as geometry. The bars
+       stay level so the slant reads as the stem's alone. -->
+  <path d="M23.5 8 L16.5 32" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M17 8 L30 8 M10 32 L23 32" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" />
+</svg>

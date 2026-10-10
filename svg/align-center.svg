@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Align center: four lines of "text", long and short alternating, the short
+       ones set to the center. The long lines are the full measure, so only the
+       short ones say which way the text sits. -->
+  <path d="M6 9 L34 9 M11.5 16.5 L28.5 16.5 M6 24 L34 24 M11.5 31.5 L28.5 31.5"
+        fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+</svg>

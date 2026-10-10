@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fill: a paint can tipped on its corner with a drop falling from its
+       lip. The paint inside is the lower half knocked out dark (the
+       palette.svg well treatment); an app may draw the chosen colour on a
+       bar beneath, as it does under font.svg for text colour. -->
+  <path fill="#ffffff" d="M18 8 L30 20 L18 32 L6 20 Z" />
+  <path fill="#282a36" opacity="0.35" d="M6 20 L30 20 L18 32 Z" />
+  <path d="M11.5 14.5 C9 8 16 3 20.5 7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path fill="#ffffff" d="M33 22 C35.5 26 36 28 36 29.5 A3 3 0 0 1 30 29.5 C30 28 30.5 26 33 22 Z" />
+</svg>
