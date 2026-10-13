@@ -47,7 +47,7 @@ CURSORS = [
     ("crosshair", "crosshair", 16, 16, ["cross", "tcross", "cross_reverse"]),
     ("text", "text", 16, 16, ["xterm", "ibeam"]),
     ("vertical-text", "vertical-text", 16, 16, ["vertical_text"]),
-    ("pointer", "pointer", 12, 4, [
+    ("pointer", "plus", 16, 16, [
         "hand", "hand1", "hand2", "pointing_hand",
         "9d800788f1b08800ae810202380a0822",  # hand2
         "e29285e634086352946a0e7090d73106",  # hand2
@@ -90,8 +90,8 @@ CURSORS = [
         "fcf21c00b30f7e3f83fe0dfd12e71cff",
         "38c5dff7c7b8962045400281044508d2",
     ]),
-    ("grab", "grab", 16, 16, ["openhand", "hand1-grab"]),
-    ("grabbing", "grabbing", 16, 16, [
+    ("grab", "plus", 16, 16, ["openhand", "hand1-grab"]),
+    ("grabbing", "plus", 16, 16, [
         "closedhand", "dnd-grabbing",
         "08ffe1cb5fe6fc01f906f1c063814ccf",
         "5aca4d189052212118709018842178c0",
@@ -127,17 +127,33 @@ CURSORS = [
     ("up-arrow", "up-arrow", 16, 4, ["center_ptr", "sb_up_arrow"]),
 ]
 
+# name -> fill colour. These cursors reuse another cursor's shape and say what
+# they mean by colour instead: there are no hand cursors, a clickable or
+# draggable target turns the default plus a different colour. The colour
+# replaces the shape's white fill (FILL), so the outline and halo stay put.
+FILL = "#ffffff"
+TINTS = {
+    "pointer": "#7dffff",   # clickable -- the config's `highlight primary`
+    "grab": "#ffb8cc",      # draggable -- the config's hover pink
+    "grabbing": "#ff79c6",  # dragging -- the same pink, deeper
+}
+
 XC_IMAGE = 0xFFFD0002
 
 
-def render(svg: Path, size: int):
-    """Render `svg` at `size`x`size` and composite the halo. Returns RGBA bytes."""
+def render(svg: Path, size: int, tint: str | None = None):
+    """Render `svg` at `size`x`size` and composite the halo. Returns RGBA bytes.
+
+    `tint` replaces the source's white fill (FILL) before rasterizing."""
     from PIL import Image, ImageFilter
 
+    source = svg.read_text()
+    if tint:
+        source = source.replace(FILL, tint)
     out = subprocess.run(
         ["magick", "-background", "none", "-density", str(int(size / VIEWBOX * 96)),
-         str(svg), "-resize", f"{size}x{size}", "png32:-"],
-        check=True, capture_output=True,
+         "svg:-", "-resize", f"{size}x{size}", "png32:-"],
+        input=source.encode(), check=True, capture_output=True,
     ).stdout
     import io
     img = Image.open(io.BytesIO(out)).convert("RGBA")
@@ -209,7 +225,7 @@ def main():
 
         frames = []
         for size in SIZES:
-            rgba = render(svg, size)
+            rgba = render(svg, size, TINTS.get(name))
             xhot = int(round(hx / VIEWBOX * size))
             yhot = int(round(hy / VIEWBOX * size))
             frames.append((size, size, size, xhot, yhot, 0, rgba))

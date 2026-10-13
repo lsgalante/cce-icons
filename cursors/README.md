@@ -4,6 +4,12 @@ A full XCursor theme in the cce language: **white fill, `#282a36` outline**, wit
 a rounded **plus** as the default pointer rather than an arrow (it follows the
 earlier `crosshair-theme` experiment, and matches `svg/plus.svg` in the icon set).
 
+There are **no hand cursors.** `pointer` (clickable), `grab` and `grabbing`
+(draggable, dragging) are the same plus in a different fill colour -- cyan, pink,
+deeper pink -- so the cursor never changes shape over a link or a handle, only
+colour. `TINTS` in `build.py` holds the colours; a tint replaces the source's
+white fill, leaving the outline and halo alone.
+
 ```
 svg/        the sources — one SVG per distinct shape, 32x32 viewBox
 build.py    svg -> PNG (magick) -> XCursor binary + alias symlinks
@@ -44,7 +50,9 @@ route is the `cce-window-management` protocol's `set_xcursor_theme`, which reach
 
 1. Drop a 32x32 SVG in `svg/`.
 2. Add a row to `CURSORS` in `build.py`: `(name, svg stem, hotspot x, hotspot y, [aliases])`.
-   Hotspots are in **source viewBox units** and are scaled per size.
+   Hotspots are in **source viewBox units** and are scaled per size. To reuse an
+   existing shape in another colour, point the row at that shape's stem and give
+   the name an entry in `TINTS`.
 3. Rebuild.
 
 The alias lists are load-bearing, not decoration: GTK and Qt still request X11
